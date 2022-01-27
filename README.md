@@ -80,9 +80,11 @@ Removing the Thomas High School ninth graders had no affect on these outcomes, p
 - The data on scores by school size is as follows:
 
 **Before Removal Size Summary**
+
 ![Before Size Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Size_Summary.PNG)
 
 **After Removal Size Summary**
+
 ![After Size Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Size_Summary.PNG)
 
 Removing the Thomas High School ninth graders had no affect on these outcomes, possibly due to rounding.
@@ -90,9 +92,11 @@ Removing the Thomas High School ninth graders had no affect on these outcomes, p
 - The data on scores by school type is as follows:
 
 **Before Removal Type Summary**
+
 ![Before Type Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Type_Summary.PNG)
 
 **After Removal Type Summary**
+
 ![After Type Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Type_Summary.PNG)
 
 Removing the Thomas High School ninth graders had no affect on these outcomes, possibly due to rounding.

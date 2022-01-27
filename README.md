@@ -67,9 +67,39 @@ Here, the fact that the ninth grade scores were removed is obvious, as the only 
 
 Here, the fact that the ninth grade scores were removed is obvious, as the only change between the before and after is that the Thomas High School 9th column reads "nan" because all of the data has been removed. 
 
-### Analysis of Outcomes Based on Goals
-The second piece of analysis looked at goals, and the number of successful, failed, and canceled **play** crowdfunding campaigns. This was done by using the Excel formula "COUNTIFS" to count the number of plays in each of the aforementioned categories in groups of $5000. 
-For example, to find the number of **successful** crowdfunding campaigns with a funding goal of **$1000 to $4999**, the following formula was used in Excel: **=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<5000",Kickstarter!$R:$R,"plays")**
+- The data on scores by school spending is as follows:
 
-From there, the sum of successful, failed, and canceled campaigns was calculated using the SUM formula, and then the percentage of successful, failed, and canceled campaigns were calculated. These percentages were used to generate the following line chart:
-![Outcomes Based on Goal](https://github.com/baileyvo/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+**Before Removal Spending Summary**
+![Before Spending Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Spending_Summary.PNG)
+
+**After Removal Spending Summary**
+![After Spending Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Spending_Summary.PNG)
+
+Removing the Thomas High School ninth graders had no affect on these outcomes, possibly due to rounding.
+
+- The data on scores by school size is as follows:
+
+**Before Removal Size Summary**
+![Before Size Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Size_Summary.PNG)
+
+**After Removal Size Summary**
+![After Size Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Size_Summary.PNG)
+
+Removing the Thomas High School ninth graders had no affect on these outcomes, possibly due to rounding.
+
+- The data on scores by school type is as follows:
+
+**Before Removal Type Summary**
+![Before Type Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Type_Summary.PNG)
+
+**After Removal Type Summary**
+![After Type Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Type_Summary.PNG)
+
+Removing the Thomas High School ninth graders had no affect on these outcomes, possibly due to rounding.
+
+## Summary
+There were four changes to the school district analysis after reading and math scores were replaced for all Thomas High School Ninth Graders:
+- There were fewer total students included in the analysis.
+- The average for all students in the district combined decreased in Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing.
+- Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing all showed small decreases for Thomas High School overall.
+- No information was able to be generated for Thomas High School Ninth Grade average math, reading, or overall passing percentages.

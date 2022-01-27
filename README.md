@@ -5,7 +5,7 @@
 Maria, the chief data scientist for a school district, has requested assistance with analysis of student standardized test scores. At one of the schools, Thomas High School, there is evidence of academic dishonesty by nineth graders. Therefore, she is requesting an analysis of the data without the potentially altered scores. She is looking for school summaries, relative performance, scores by school spending, scores by school size, and scores by school type, and wants to know how these items may have been affected by the academic dishonesty. 
 
 ### Resources
-- Data Source: clean_students_complete.csv, schools_complete.csv, students_complete.csv (all available in the Resources folder[https://github.com/baileyvo/School_District_Analysis/tree/main/Resources]
+- Data Source: clean_students_complete.csv, schools_complete.csv, students_complete.csv (all available in the [Resources folder](https://github.com/baileyvo/School_District_Analysis/tree/main/Resources))
 - Software: Python 3.7.6, Visual Studio Code 1.63.2
 
 ## Analysis and Challenges

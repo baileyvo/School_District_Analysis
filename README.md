@@ -12,6 +12,7 @@ Maria, the chief data scientist for a school district, has requested assistance 
 
 ### Analysis of Affects of Academic Dishonesty
 - The district summaries are as follows: 
+
 **Before Removal District Summary**
 ![Before District Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_District_Summary.PNG)
 
@@ -21,6 +22,7 @@ Maria, the chief data scientist for a school district, has requested assistance 
 Removing the Thomas High School ninth graders caused a small decrease in Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing. 
 
 - The school summaries are as follows:
+
 **Before Removal School Summary**
 ![Before School Summary](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_School_Summary.PNG)
 
@@ -30,6 +32,7 @@ Removing the Thomas High School ninth graders caused a small decrease in Average
 The only differences in the school summaries come in the Thomas High School row. Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing all showed small decreases when the ninth grader's scores were removed. 
 
 - The top five performing schools are as follows:
+
 **Before Removal Top Schools**
 ![Before Top Schools](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Top_Schools.PNG)
 
@@ -39,8 +42,10 @@ The only differences in the school summaries come in the Thomas High School row.
 Even after removing the Thomas High School ninth grader's math and reading scores, Thomas High School remained the number two performing school when comparing % Overall Passing.
 
 - The average math scores by school and by grade are as follows:
+
 **Before Removal Average Math Scores**
 ![Before Math Scores Grades](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Math_Scores_Grade.PNG)
+
 
 **After Removal Average Math Scores**
 ![After Math Scores Grades](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Math_Scores_Grade.PNG)
@@ -48,8 +53,10 @@ Even after removing the Thomas High School ninth grader's math and reading score
 Here, the fact that the ninth grade scores were removed is obvious, as the only change between the before and after is that the Thomas High School 9th column reads "nan" because all of the data has been removed. 
 
 - The average reading scores by school and by grade are as follows:
+
 **Before Removal Average Reading Scores**
 ![Before Reading Scores Grades](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/Before_Reading_Scores_Grade.PNG)
+
 
 **After Removal Average Math Scores**
 ![After Reading Scores Grades](https://github.com/baileyvo/School_District_Analysis/blob/main/Images/After_Reading_Scores_Grade.PNG)
